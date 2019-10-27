@@ -4,7 +4,7 @@ def PileouFace():
     r = random.randint(0, 1) 
     if r == 1:
         print("Vous êtes tombé sur Pile !")
-    if r == 0:
+    else:
         print("Vous êtes tombé sur Face !")
 
 PileouFace()
